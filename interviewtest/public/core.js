@@ -40,6 +40,11 @@ function add(taskData) {
     var type = 0; // active
     var content = taskData;
 
+    // 若空則不執行
+    if (taskData === "") {
+        return;
+    }
+
     // 清空input box
     $('#newTask').val("");
 

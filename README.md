@@ -15,7 +15,7 @@
 - 安裝 XAMPP 並確認可以正確執行
 - 安裝 Composer 並確認安裝是否正確
 - 安裝 Laravel 至 `xampp/htdocs`
-- 瀏覽器開啟 `http://localhost/projectName/public` 確認是否可以正確開啟Laravel起始畫面
+- 瀏覽器開啟 `http://localhost/interviewtest/public` 確認是否可以正確開啟Laravel起始畫面
 - 關閉apache並更改 `httpd.conf` 內容
 
 ```
@@ -24,8 +24,8 @@ DocumentRoot "D:/xampp/htdocs"
 <DocumentRoot "D:/xampp/htdocs">
 
 更改為
-DocumentRoot "D:/xampp/htdocs/projectName/public/"
-<Directory "D:/xampp/htdocs/projectName/public/">
+DocumentRoot "D:/xampp/htdocs/interviewtest/public/"
+<Directory "D:/xampp/htdocs/interviewtest/public/">
 ```
 
 - 啟動apache並確認`http://localhost`是否為Laravel起始畫面
